@@ -2,6 +2,7 @@
     Document   : Ajouter_niv
     Created on : Jan 3, 2024, 3:57:20 PM
     Author     : Abd Elouahab
+    22
 --%>
 <%@page import="java.util.ArrayList"%>
 <%@ page language="java"%>
@@ -39,7 +40,7 @@ try {
 		
 			<!-- BEGIN PAGE HEADER-->
 			<h3 class="page-title">
-			Département   <small><%=nom_dept %></small>
+			DÃ©partement   <small><%=nom_dept %></small>
 			</h3>
 			<div class="page-bar">
 				<ul class="page-breadcrumb">
@@ -49,7 +50,7 @@ try {
 						<i class="fa fa-angle-right"></i>
 					</li>
 					<li>
-						<a href="table_dept.jsp">Département</a>
+						<a href="table_dept.jsp">DÃ©partement</a>
 						<i class="fa fa-angle-right"></i>
 					</li>
 					<li>
@@ -177,7 +178,7 @@ try {
                                 <div class="row">
                                     <div class="col-md-offset-3 col-md-9">
 									    
-										<button type="submit" name="submit" class="btn btn-circle blue">Insérer</button>
+										<button type="submit" name="submit" class="btn btn-circle blue">InsÃ©rer</button>
                                     </div>
                                 </div>
                             </div>
